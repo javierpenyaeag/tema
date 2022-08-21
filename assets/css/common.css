@@ -1,0 +1,128 @@
+:root {
+  --primary-color: #194350;
+  --secondary-color: #FF8882;
+  --secondary-light-color: #FFC2B4;
+  --primary-light-color: #9DBEB9;
+  --color-whithe-opacity: rgba(255, 255, 255, 0.8);
+  --color-whithe-hight-opacity: rgba(255, 255, 255, 0.31);
+  --radius-soft: 0.125rem;
+  --color-crude: #E5E5E5;
+  --font-josefin: josefin-sans, san-serif;
+  --font-lato: Lato, san-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 8.625rem;
+  font-family: josefin-sans, sans-serif;
+  font-weight: 700;
+  line-height: 8.625rem;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 6.56rem;
+  font-family: josefin-sans, sans-serif;
+  font-weight: 700;
+  line-height: 6.56rem;
+}
+
+h5 {
+  font-size: 2.93rem;
+  line-height: 2.93rem;
+  font-family: var(--font-josefin);
+  font-style: normal;
+  font-weight: 700;
+}
+
+span.h8 {
+  font-size: 1.312rem;
+}
+
+span.h7 {
+  font-size: 1.68rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-ai-center {
+  align-items: center;
+}
+
+.flex-ai-end {
+  align-items: flex-end;
+}
+
+.flex-ai-start {
+  align-items: flex-start;
+}
+
+.flex-jc-center {
+  justify-content: center;
+}
+
+.flex-jc-start {
+  justify-content: start;
+}
+
+.flex-jc-end {
+  justify-content: end;
+}
+
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+.color-transparent {
+  color: transparent;
+}
+
+.color-white {
+  color: white;
+}
+
+.border-text-secondary {
+  -webkit-text-stroke: 2px var(--secondary-color);
+}
+
+.border-text-white {
+  -webkit-text-stroke: 2px white;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.card-margin-right {
+  margin-right: 0.95rem;
+}
+
+.card-margin-left {
+  margin-left: 0.95rem;
+}
+
+.card-margin-top {
+  margin-top: 0.625rem;
+}
+
+.card-margin-button {
+  margin-bottom: 0.625rem;
+}

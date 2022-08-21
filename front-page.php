@@ -1,0 +1,281 @@
+<?php
+/**
+ * Plantilla para la pagina de inicio
+ *
+ *
+ */
+
+
+
+
+get_header(); ?>
+
+<section class="section-1 d-flex flex-row flex-jc-center">
+      <div class="wrapper d-flex flex-column flex-jc-sb">
+        <div class="content d-flex flex-column flex-ai-center">
+          <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="logo">
+          <div class="detail d-flex flex-row">
+            <div class="info d-flex flex-column">
+              <h1 class="color-white poison">Buy poison.</h1>
+              <h1 class="color-transparent border-text-secondary trust">Trust us.</h1>
+              <p class="color-white">You children are safe, why would a company lie to you? We are your friends pal. Buy poison today and we grant you total transparency and full refunds if you are not satisfied with our service. We care about you</p>
+              <span class="button">DRINK NOW!</span>
+            </div>
+            <div class="img">
+              <img src="<?php echo get_template_directory_uri();?>/assets/images/poison.png" alt="poison">
+            </div>
+          </div>
+        </div>
+        <div class="next-step d-flex flex-jc-sb">
+          <div class="mouse1 d-flex">
+            <span class="mouse-body"></span>
+            <span class="mouse-pointer"></span>
+          </div>
+          <div class="text-down color-white">
+            <span>*We keep the right to deny any refunds on our own terms. Total responsability is up to the final user buying poison.</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-2">
+      <div class="wrapper d-flex flex-column">
+        <div class="date d-flex ">
+          <span class="h7">03 - 05</span>
+        </div>
+        <h2 class="cruelty">Cruelty <span>free</span></h2>
+        <h2 class="development border-text-secondary">Development</h2>
+        <p class="h8 except">Except for the human subject...</p>
+        <div class="pet d-flex flex-row">
+          <div class="look">
+            <h5>Look, a cute puppy</h5>
+            <p>Here on POISON we know that cute small animals go viral and get the youth’s attention. Take a good look at the dog here and think carefully if you emphatize with this company. We are so cool and quirky hehe uwu. Go right now to that form and buy the damn poison already. We are running out of ideas to trick you people into buying our product.</p>
+          </div>
+          <div class="img">
+            <img src="<?php echo get_template_directory_uri();?>/assets/images/puppy.png" alt="puppy">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-3">
+      <div class="wrapper d-flex flex-column flex-ai-end">
+        <div class="date d-flex flex-jc-end">
+          <span class="h7">02 - 05</span>
+        </div>
+        <h2 class="our">Our</h2>
+        <h2 class="color-transparent  border-text-white flavours">Flavours</h2>
+        <div class="d-flex flex-row w-100 animals">
+          <div class="row d-flex flex-column row1 card-margin-right">
+            <div class="card card-margin-button d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/mushroom.png" alt="mushroom">
+                <div class="title">Mushroom</div>
+              </div>
+              <div class="content">Dignissim placerat viverra iaculis lacus netus.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+            <div class="card card-margin-top card-margin-button d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/spider.png" alt="spider">
+                <div class="title">Spider</div>
+              </div>
+              <div class="content">Quisque id vel in vel tellus. Arcu orci pharetra ut magna tristique lacus sapien, purus.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+            <div class="card card-margin-top d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/weirdCult.png" alt="weir cult">
+                <div class="title">Weird cult</div>
+              </div>
+              <div class="content">Et, dictumst convallis nulla nisi fames adipiscing bibendum viverra.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex flex-column row2 card-margin-right card-margin-left">
+            <div class="card card-margin-button d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/snake.png" alt="snake">
+                <div class="title">Snake</div>
+              </div>
+              <div class="content">Sit proin faucibus in enim, amet pretium ac nunc. Ullamcorper molestie ut facilisis sed.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+            <div class="card card-margin-top card-margin-button d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/bigSpider.png" alt="big spider">
+                <div class="title">Big spider</div>
+              </div>
+              <div class="content">Ut felis, in vestibulum fames nunc libero, laoreet neque.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+            <div class="card card-margin-top d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/someHerb.png" alt="some herb">
+                <div class="title">Some herb</div>
+              </div>
+              <div class="content">Sagittis, purus nunc, mattis proin sodales netus venenatis elementum non.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex flex-column row3 card-margin-right card-margin-left">
+            <div class="card card-margin-button d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/weirdFrog.png" alt="weir frog">
+                <div class="title">Weird frog</div>
+              </div>
+              <div class="content">Vehicula euismod mauris pharetra aliquam amet, et quam enim viverra.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+            <div class="card card-margin-top card-margin-button d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/scorpion.png" alt="scorpion">
+                <div class="title">Scorpion</div>
+              </div>
+              <div class="content">Augue pharetra gravida congue quisque vestibulum dictumst eget leo magna.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+            <div class="card card-margin-top d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/lionBite.png" alt="lion bite">
+                <div class="title">Lion bite</div>
+              </div>
+              <div class="content">Vivamus ut scelerisque eu, risus id varius at turpis. Vitae pellentesque nunc, eu, sed donec integer.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex flex-column row4 card-margin-left">
+            <div class="card card-margin-button d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/jellyfish.png" alt="jellyfish">
+                <div class="title">Jellyfish</div>
+              </div>
+              <div class="content">Amet lorem metus, in diam.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+            <div class="card card-margin-top card-margin-button d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/deathKiss.png" alt="deathKiss">
+                <div class="title">Death kiss</div>
+              </div>
+              <div class="content">Ut amet lacus fringilla nibh ac non lobortis tempor. Magna turpis nulla quis tempor tellus, ipsum.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+            <div class="card card-margin-top d-flex flex-column">
+              <div class="header d-flex flex-row">
+                <img src="<?php echo get_template_directory_uri();?>/assets/images/rabies.png" alt="rabies">
+                <div class="title">Rabies</div>
+              </div>
+              <div class="content">Ut ullamcorper amet, cursus integer nibh felis velit mi.</div>
+              <div class="button-detail">
+                Details
+                <span class="arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-2">
+      <div class="wrapper d-flex flex-column">
+        <div class="date d-flex ">
+          <span class="h7">03 - 05</span>
+        </div>
+        <h2 class="cruelty">Cruelty <span>free</span></h2>
+        <h2 class="development border-text-secondary">Development</h2>
+        <p class="h8 except">Except for the human subject...</p>
+        <div class="pet d-flex flex-row">
+          <div class="look">
+            <h5>Look, a cute puppy</h5>
+            <p>Here on POISON we know that cute small animals go viral and get the youth’s attention. Take a good look at the dog here and think carefully if you emphatize with this company. We are so cool and quirky hehe uwu. Go right now to that form and buy the damn poison already. We are running out of ideas to trick you people into buying our product.</p>
+          </div>
+          <div class="img">
+            <img src="<?php echo get_template_directory_uri();?>/assets/images/dog.png" alt="puppy">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-5">
+      <div class="wrapper d-flex flex-column flex-ai-end">
+        <div class="date d-flex flex-jc-end">
+          <span class="h7">05 - 05</span>
+        </div>
+        <h2 class="blog">Blog</h2>
+        <h2 class="color-transparent  border-text-white news">News</h2>
+        <div class="d-flex flex-row notice">
+          <div class="image">
+            <img src="<?php echo get_template_directory_uri();?>/assets/images/family.png" alt="family">
+          </div>
+          <div class="content d-flex flex-column">
+            <div class="title">
+              <span>Drinking poison is actually not that bad according to recent studies.</span>
+            </div>
+            <div class="detail">
+              <p>Tincidunt orci pellentesque magnis aliquet. Nullam quis lorem neque, adipiscing posuere et lacus aliquet faucibus. Feugiat non neque, eget odio non sit amet. Amet egestas suspendisse etiam senectus venenatis risus. Sed sem ut lacus elementum montes, nec velit. Est faucibus cras suspendisse turpis quis ipsum. Id dolor mauris nec egestas. Pellentesque orci, pretium ultricies mi ullamcorper a ut facilisi cras...</p>
+            </div>
+            <span class="button">Read more</span>
+          </div>
+        </div>
+        <div class="wrapper-cards d-flex flex-row">
+          <div class="card d-flex flex-column right first">
+            <div class="title">Good cells found in poisonous snakes.</div>
+            <div class="content">In amet eget eget suspendisse cras elementum ipsum amet egestas. Ornare gravida nunc, cursus ipsum nisl commodo. Sed aliquam magna et netus faucibus mattis enim, adipiscing. Congue duis ante amet sed commodo integer. Nisi eu ullamcorper nam eget vitae.</div>
+            <div class="button-detail">
+              Read more
+              <span class="arrow"></span>
+            </div>
+          </div>
+          <div class="card d-flex flex-column both second">
+            <div class="title">Deaths accusations proven wrong in court.</div>
+            <div class="content">Arcu in amet ultricies tincidunt feugiat. Dictumst aenean potenti eu aenean vestibulum mauris sit nulla. Gravida pellentesque duis egestas porttitor scelerisque eu morbi. Venenatis nunc ut suscipit amet rutrum morbi suspendisse pretium eget.</div>
+            <div class="button-detail">
+              Read more
+              <span class="arrow"></span>
+            </div>
+          </div>
+          <div class="card d-flex flex-column left third">
+            <div class="title">How to get your millenial son to drink poison.</div>
+            <div class="content">Sed congue turpis proin ut pretium rhoncus, vitae mattis. Ut nunc, vel nulla neque, bibendum. Consectetur cras purus eget accumsan integer sit ultricies. Duis facilisi phasellus mollis egestas leo lorem ipsum viverra condimentum.</div>
+            <div class="button-detail">
+              Read more
+              <span class="arrow"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<?php get_footer(); ?>
